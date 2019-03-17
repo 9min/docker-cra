@@ -1,18 +1,18 @@
-# base image
-FROM node
+FROM node:10
 
-# set working directory
-RUN mkdir /usr/src/app
-#copy all files from current directory to docker
-COPY . /usr/src/app
+# Create app directory
+WORKDIR /app
+ADD . /app/
 
-WORKDIR /usr/src/app
+# global install & update
+RUN npm i -g npm && npm i -g yarn
 
-# add `/usr/src/app/node_modules/.bin` to $PATH
-ENV PATH /usr/src/app/node_modules/.bin:$PATH
-
-# install and cache app dependencies
+RUN rm yarn.lock
 RUN yarn
+RUN yarn build
 
-# start app
-CMD ["npm", "start"]
+ENV HOST 0.0.0.0
+EXPOSE 3000
+
+# start command
+CMD [ "yarn", "start" ]

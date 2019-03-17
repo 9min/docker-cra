@@ -4,8 +4,8 @@ Deploy React app in Docker Container
 
 ## doker build
 
-`docker build -t docker-cra .`
+`docker build --tag <name>:<version> .`
 
 ## docker run
 
-`docker run -it -p 3000:3000 docker-cra`
+`docker run --name <container-name> -p 3000:3000 <image-name>:<version>`
