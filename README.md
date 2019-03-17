@@ -2,7 +2,7 @@
 
 Deploy React app in Docker Container
 
-## doker build
+## docker build
 
 `docker build --tag <name>:<version> .`
 
