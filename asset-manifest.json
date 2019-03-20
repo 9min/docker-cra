@@ -1,0 +1,14 @@
+{
+  "main.css": "/docker-cra/static/css/main.a8134201.chunk.css",
+  "main.js": "/docker-cra/static/js/main.cf74ec58.chunk.js",
+  "main.js.map": "/docker-cra/static/js/main.cf74ec58.chunk.js.map",
+  "runtime~main.js": "/docker-cra/static/js/runtime~main.c9f4d3b6.js",
+  "runtime~main.js.map": "/docker-cra/static/js/runtime~main.c9f4d3b6.js.map",
+  "static/js/2.8f71a45e.chunk.js": "/docker-cra/static/js/2.8f71a45e.chunk.js",
+  "static/js/2.8f71a45e.chunk.js.map": "/docker-cra/static/js/2.8f71a45e.chunk.js.map",
+  "index.html": "/docker-cra/index.html",
+  "precache-manifest.7c1d83352488389490dfb84bef2e2dca.js": "/docker-cra/precache-manifest.7c1d83352488389490dfb84bef2e2dca.js",
+  "service-worker.js": "/docker-cra/service-worker.js",
+  "static/css/main.a8134201.chunk.css.map": "/docker-cra/static/css/main.a8134201.chunk.css.map",
+  "static/media/logo.svg": "/docker-cra/static/media/logo.5d5d9eef.svg"
+}
