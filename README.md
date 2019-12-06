@@ -26,6 +26,10 @@ Deploy React app in Docker Container
 
 `docker rm <container-name>`
 
+## docker image ls (모든 이미지 목록 출력)
+
+`ocker image ls`
+
 ## docker rmi (이미지 삭제)
 
 `docker rmi <image-name>:<version>`
